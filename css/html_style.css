@@ -1,0 +1,16 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #4AA0DD;
+    color:white;
+    margin: 0 100px 0 100px;
+}
+img{
+    width:100%;
+    overflow:hidden;
+}
+.button
+{
+    background-color: white;
+    color:#2279BD;
+}

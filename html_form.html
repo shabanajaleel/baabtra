@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration  Form</title>
+</head>
+<body bgcolor="lightgrey"> 
+    <h1 align="center">Student Registration Form</h1>
+
+    <div align="center" style="border:honeydew solid;background-color: white; padding: 20px 20px 20px 20px; margin:50px 200px 50px 200px">
+        
+        <form action="">
+        <table  cellspacing="0"> 
+            <tr>
+                <td><label>First Name:</label></td>
+                <td><input type="text" name="fname" placeholder="Enter Your First Name" required></td>
+            </tr>
+            <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type="text" name="lname" placeholder="Enter Your Last Name" required></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email" placeholder="Enter Your Email" required></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number:</label></td>
+                <td><input type="number" name="mobile" placeholder="Enter Your Mobile" required></td>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><label for="male">Male</label><input type="radio" name="gender"  value="male">
+                    <label for="male">Female</label><input type="radio" name="gender"  value="female"></td>
+            </tr>
+            <tr>
+                <td><label>Hobbies:</label></td>
+                <td><input type="checkbox" name="play" id="" >play
+                    <input type="checkbox" name="read" id="" >read
+                    <input type="checkbox" name="watch tv" id="" >watch tv</td>
+            </tr>
+            <tr>
+                <td><label>Select your city:</label></td>
+                <td><select name="city" id="">
+                    <option value="eranakulam">Eranakulam</option>
+                    <option value="Kozhikode">Kozhikode</option>
+                    <option value="trissur">Trissur</option>
+                    <option value="malappuram">Malappuram</option>
+                </select></td>
+            </tr>
+            <tr  align="center">
+                <td colspan="2" style="padding-top: 30px;"><input type="submit" name="submit" value="SUBMIT" ></td>
+            </tr>
+
+           
+        </table>
+    </form>
+    </div>
+    
+</body>
+</html>
